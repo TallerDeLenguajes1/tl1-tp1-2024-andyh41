@@ -15,3 +15,6 @@ Luego, edita este archivo según sea necesario. Cada nueva línea debe incluir u
 '*' se utiliza como un comodín para coincidir con cualquier archivo.
 '/' se usa para ignorar rutas relativas al archivo .gitignore.
 '#' se utiliza para agregar comentarios.
+
+## Punto 3: los apartados 2 y 3 del punto anterior el resultado es el mismo. ¿a qué se debe?
+El resultado en los apartados 2 y 3 es el mismo ya que en los dos casos estamos pidiendo la direccion de memoria de la variable. En el punto 4 se obtiene la direccion de memoria del puntero, la cual es distinta a la direccion de la varible y a la que esta almacenada en el puntero ya que la variable puntero es una variable diferente que tiene su propia direccion de memoria.
